@@ -1,4 +1,4 @@
-## R 스터디
+## Machine Learning Examples
 
 ### 1. Linear Regression Example ###
 
