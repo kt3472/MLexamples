@@ -1,4 +1,4 @@
-## Machine Learning Examples
+## Machine learning examples in R
 
 ### 1. Linear Regression Example ###
 
