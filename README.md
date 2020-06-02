@@ -9,3 +9,5 @@
 ### 4. Decision Tree Example ###
 
 ### 5. RandomForest Example ###
+
+### 6. Xgboost Example ###
