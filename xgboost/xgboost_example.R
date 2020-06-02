@@ -80,6 +80,6 @@ table(cpred_w, test_lab)
 mean_err <- mean(as.numeric(pred_w > 0.5) != test_lab)
 cat("test-error =", mean_err)
 
-# feature importance
+# 6. feature importance
 importance_matrix <- xgb.importance(colnames(train_mat), model = xgb_model_w)
 importance_matrix
