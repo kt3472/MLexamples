@@ -4,7 +4,7 @@ library(xgboost)
 
 
 # 1.데이터 가져오기
-#setwd('D:/backup/Rdata/rwork')
+
 weather = read.csv("./data/weather.csv")
 
 head(weather)
@@ -18,6 +18,7 @@ dim(weather_df)
 
 weather_df$RainTomorrow <- ifelse(weather_df$RainTomorrow == "No", 0, 1)
 table(weather_df$RainTomorrow)
+
 
 # 2. train/test 데이터 셋 생성
 
