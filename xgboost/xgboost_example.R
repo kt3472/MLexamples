@@ -56,14 +56,13 @@ xgb_model_w <- xgboost(data = dtrain,
 xgb_model_w
 
 
-# 5.
+# 5. 예측 및 평가
 
 test_mat <- as.matrix(test[-11])
 dim(test_mat)
 test_lab <- test$RainTomorrow 
 length(test_lab) 
 
-# 6. 예측 및 평가
 pred_w <- predict(xgb_model_w, test_mat)
 range(pred_w) 
 cpred_w <- ifelse(pred_w >= 0.5, 1, 0)
