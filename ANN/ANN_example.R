@@ -80,7 +80,7 @@ cor(model_result2$net.result, test_nor$Species)
 mean((model_result2$net.result- test_nor$Species)**2)
 
 
-# 5-3.NN알고리즘모델링(다층퍼셉트론, 역전파(backpropergation)적용) 및 평가
+# 5-3.NN알고리즘모델링(다층퍼셉트론(multi-layer), 역전파(backpropergation)적용) 및 평가
 
 model_net3 = neuralnet(Species ~ Sepal.Length+Sepal.Width+Petal.Length+Petal.Width, 
                        data=train_nor, hidden = c(2, 2), learningrate=0.01,
