@@ -16,4 +16,4 @@
 
 ### 8. LSTM ###
 
-### 9. 
+### 9. Support Vector Machine ###
