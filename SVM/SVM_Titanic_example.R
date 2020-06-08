@@ -44,7 +44,7 @@ test$Sex <- factor(test$Sex,
                      levels = c('male', 'female'),
                      labels = c(1, 2))
 
-# train$Embarked의 factor는 " "을 포함하여 4개 이므로 test의 Emabarked의 factor도 동일하게 4개로 만들어줌
+# train$Embarked의 factor는 " "을 포함하여 4개 이므로 test의 Emabarked의 factor도 동일하게 4개로 구성되어야 함
 test$Embarked <- factor(test$Embarked,
                           levels = c('C', 'Q', 'S',''),
                           labels = c(1, 2, 3,4))
