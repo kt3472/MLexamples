@@ -77,4 +77,4 @@ svm_classifier
 y_pred = predict(svm_classifier, newdata = test_set)
 
 
-write.csv(y_pred,file = 'predicts_titanic.csv')
+write.csv(y_pred,file = './data/predicts_titanic.csv')
